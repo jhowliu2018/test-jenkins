@@ -2,7 +2,7 @@ pipeline {
   agent any
   
   stages {
-    stae("Init") {
+    stage("Init") {
       steps {
         echo "Init, I'm dev"
       }
